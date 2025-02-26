@@ -1,0 +1,22 @@
+[0.906s] Invoking command in '/home/park/clu_ws/build/lidar_cluster': PYTHONPATH=/home/park/clu_ws/build/lidar_cluster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/clu_ws/install/lidar_cluster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/park/clu_ws/build/lidar_cluster/build --no-deps symlink_data
+[1.276s] running develop
+[1.556s] running egg_info
+[1.577s] creating lidar_cluster.egg-info
+[1.577s] writing lidar_cluster.egg-info/PKG-INFO
+[1.577s] writing dependency_links to lidar_cluster.egg-info/dependency_links.txt
+[1.577s] writing entry points to lidar_cluster.egg-info/entry_points.txt
+[1.577s] writing requirements to lidar_cluster.egg-info/requires.txt
+[1.577s] writing top-level names to lidar_cluster.egg-info/top_level.txt
+[1.577s] writing manifest file 'lidar_cluster.egg-info/SOURCES.txt'
+[1.618s] reading manifest file 'lidar_cluster.egg-info/SOURCES.txt'
+[1.619s] writing manifest file 'lidar_cluster.egg-info/SOURCES.txt'
+[1.689s] running build_ext
+[1.689s] Creating /home/park/clu_ws/install/lidar_cluster/lib/python3.10/site-packages/lidar-cluster.egg-link (link to .)
+[1.690s] Installing lidar_clustering_node script to /home/park/clu_ws/install/lidar_cluster/lib/lidar_cluster
+[1.690s] 
+[1.690s] Installed /home/park/clu_ws/build/lidar_cluster
+[1.690s] running symlink_data
+[1.690s] creating /home/park/clu_ws/install/lidar_cluster/share/ament_index/resource_index/packages
+[1.691s] symbolically linking /home/park/clu_ws/build/lidar_cluster/resource/lidar_cluster -> /home/park/clu_ws/install/lidar_cluster/share/ament_index/resource_index/packages
+[1.691s] symbolically linking /home/park/clu_ws/build/lidar_cluster/package.xml -> /home/park/clu_ws/install/lidar_cluster/share/lidar_cluster
+[1.729s] Invoked command in '/home/park/clu_ws/build/lidar_cluster' returned '0': PYTHONPATH=/home/park/clu_ws/build/lidar_cluster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/clu_ws/install/lidar_cluster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/park/clu_ws/build/lidar_cluster/build --no-deps symlink_data

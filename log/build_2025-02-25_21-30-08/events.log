@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (lidar_cluster) JobQueued: {'identifier': 'lidar_cluster', 'dependencies': OrderedDict()}
+[0.000634] (lidar_cluster) JobStarted: {'identifier': 'lidar_cluster'}
+[0.096716] (-) TimerEvent: {}
+[0.197248] (-) TimerEvent: {}
+[0.297831] (-) TimerEvent: {}
+[0.398342] (-) TimerEvent: {}
+[0.498651] (-) TimerEvent: {}
+[0.598895] (-) TimerEvent: {}
+[0.699236] (-) TimerEvent: {}
+[0.799808] (-) TimerEvent: {}
+[0.900314] (-) TimerEvent: {}
+[1.000644] (-) TimerEvent: {}
+[1.101245] (-) TimerEvent: {}
+[1.201813] (-) TimerEvent: {}
+[1.302408] (-) TimerEvent: {}
+[1.403029] (-) TimerEvent: {}
+[1.503633] (-) TimerEvent: {}
+[1.604211] (-) TimerEvent: {}
+[1.704993] (-) TimerEvent: {}
+[1.805788] (-) TimerEvent: {}
+[1.906620] (-) TimerEvent: {}
+[2.007213] (-) TimerEvent: {}
+[2.107781] (-) TimerEvent: {}
+[2.208370] (-) TimerEvent: {}
+[2.309024] (-) TimerEvent: {}
+[2.409484] (-) TimerEvent: {}
+[2.510116] (-) TimerEvent: {}
+[2.610757] (-) TimerEvent: {}
+[2.618763] (lidar_cluster) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/park/clu_ws/build/lidar_cluster/build', '--no-deps', 'symlink_data'], 'cwd': '/home/park/clu_ws/build/lidar_cluster', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LANGUAGE': 'ko:en_US:en', 'USER': 'park', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/usr/local/cuda-11.8/lib64:/home/park/lidar_ws/install/velodyne_pointcloud/lib:/home/park/lidar_ws/install/velodyne_driver/lib:/home/park/lidar_ws/install/velodyne_msgs/lib:/home/park/lidar_ws/install/velodyne_laserscan/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'HOME': '/home/park', 'OLDPWD': '/home/park/clu_ws', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/park/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1896', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c0859c057efbddcf072f32bb67bd2994', 'DBUS_STARTER_BUS_TYPE': 'session', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/park/ros2_ws', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/park/lidar_ws/install:/home/park/ros2_ws/install', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'park', '_P9K_SSH_TTY': '/dev/pts/6', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'park', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-11.8/bin:/opt/ros/humble/bin:/home/park/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/park-Lenovo-Legion-Y530-15ICH:@/tmp/.ICE-unix/1896,unix/park-Lenovo-Legion-Y530-15ICH:/tmp/.ICE-unix/1896', 'PAPERSIZE': 'a4', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cda23213_7dff_4b2e_b741_0dbe2793e0b1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'ko_KR.UTF-8', 'DISPLAY': ':1', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.255', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/park/lidar_ws/install/velodyne:/home/park/lidar_ws/install/velodyne_pointcloud:/home/park/lidar_ws/install/velodyne_driver:/home/park/lidar_ws/install/velodyne_msgs:/home/park/lidar_ws/install/velodyne_laserscan:/opt/ros/humble', 'LC_NAME': 'ko_KR.UTF-8', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/park/clu_ws/build/lidar_cluster', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c0859c057efbddcf072f32bb67bd2994', 'RCUTILS_COLORIZED_OUTPUT': '1', '_P9K_TTY': '/dev/pts/6', 'LC_NUMERIC': 'ko_KR.UTF-8', 'PYTHONPATH': '/home/park/clu_ws/build/lidar_cluster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/park/clu_ws/install/lidar_cluster/lib/python3.10/site-packages:/home/park/lidar_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/opt/ros/humble:/home/park/lidar_ws/install/velodyne:/home/park/lidar_ws/install/velodyne_pointcloud:/home/park/lidar_ws/install/velodyne_driver:/home/park/lidar_ws/install/velodyne_msgs:/home/park/lidar_ws/install/velodyne_laserscan'}, 'shell': False}
+[2.710942] (-) TimerEvent: {}
+[2.811635] (-) TimerEvent: {}
+[2.912288] (-) TimerEvent: {}
+[3.012883] (-) TimerEvent: {}
+[3.113425] (-) TimerEvent: {}
+[3.213699] (-) TimerEvent: {}
+[3.314217] (-) TimerEvent: {}
+[3.414461] (-) TimerEvent: {}
+[3.505485] (lidar_cluster) StdoutLine: {'line': b'running develop\n'}
+[3.514582] (-) TimerEvent: {}
+[3.615169] (-) TimerEvent: {}
+[3.715756] (-) TimerEvent: {}
+[3.816402] (-) TimerEvent: {}
+[3.917083] (-) TimerEvent: {}
+[4.017688] (-) TimerEvent: {}
+[4.118288] (-) TimerEvent: {}
+[4.218946] (-) TimerEvent: {}
+[4.319584] (-) TimerEvent: {}
+[4.420233] (-) TimerEvent: {}
+[4.520861] (-) TimerEvent: {}
+[4.568937] (lidar_cluster) StdoutLine: {'line': b'running egg_info\n'}
+[4.621089] (-) TimerEvent: {}
+[4.663464] (lidar_cluster) StdoutLine: {'line': b'writing lidar_cluster.egg-info/PKG-INFO\n'}
+[4.664931] (lidar_cluster) StdoutLine: {'line': b'writing dependency_links to lidar_cluster.egg-info/dependency_links.txt\n'}
+[4.665581] (lidar_cluster) StdoutLine: {'line': b'writing entry points to lidar_cluster.egg-info/entry_points.txt\n'}
+[4.666795] (lidar_cluster) StdoutLine: {'line': b'writing requirements to lidar_cluster.egg-info/requires.txt\n'}
+[4.667539] (lidar_cluster) StdoutLine: {'line': b'writing top-level names to lidar_cluster.egg-info/top_level.txt\n'}
+[4.721266] (-) TimerEvent: {}
+[4.739073] (lidar_cluster) StdoutLine: {'line': b"reading manifest file 'lidar_cluster.egg-info/SOURCES.txt'\n"}
+[4.740386] (lidar_cluster) StdoutLine: {'line': b"writing manifest file 'lidar_cluster.egg-info/SOURCES.txt'\n"}
+[4.821534] (-) TimerEvent: {}
+[4.922147] (-) TimerEvent: {}
+[5.022347] (lidar_cluster) StdoutLine: {'line': b'running build_ext\n'}
+[5.022867] (-) TimerEvent: {}
+[5.023445] (lidar_cluster) StdoutLine: {'line': b'Creating /home/park/clu_ws/install/lidar_cluster/lib/python3.10/site-packages/lidar-cluster.egg-link (link to .)\n'}
+[5.026239] (lidar_cluster) StdoutLine: {'line': b'Installing lidar_clustering_node script to /home/park/clu_ws/install/lidar_cluster/lib/lidar_cluster\n'}
+[5.027048] (lidar_cluster) StdoutLine: {'line': b'Installing yolov5li_node script to /home/park/clu_ws/install/lidar_cluster/lib/lidar_cluster\n'}
+[5.027885] (lidar_cluster) StdoutLine: {'line': b'\n'}
+[5.028492] (lidar_cluster) StdoutLine: {'line': b'Installed /home/park/clu_ws/build/lidar_cluster\n'}
+[5.028828] (lidar_cluster) StdoutLine: {'line': b'running symlink_data\n'}
+[5.124963] (lidar_cluster) CommandEnded: {'returncode': 0}
+[5.127225] (-) TimerEvent: {}
+[5.186304] (lidar_cluster) JobEnded: {'identifier': 'lidar_cluster', 'rc': 0}
+[5.188856] (-) EventReactorShutdown: {}

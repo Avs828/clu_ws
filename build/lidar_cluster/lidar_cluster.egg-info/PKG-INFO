@@ -1,0 +1,13 @@
+Metadata-Version: 2.2
+Name: lidar_cluster
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: park
+Maintainer-email: tjdtn5324@naver.com
+License: TODO: License declaration
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

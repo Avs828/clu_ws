@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating lidar_cluster.egg-info
+writing lidar_cluster.egg-info/PKG-INFO
+writing dependency_links to lidar_cluster.egg-info/dependency_links.txt
+writing entry points to lidar_cluster.egg-info/entry_points.txt
+writing requirements to lidar_cluster.egg-info/requires.txt
+writing top-level names to lidar_cluster.egg-info/top_level.txt
+writing manifest file 'lidar_cluster.egg-info/SOURCES.txt'
+reading manifest file 'lidar_cluster.egg-info/SOURCES.txt'
+writing manifest file 'lidar_cluster.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/park/clu_ws/install/lidar_cluster/lib/python3.10/site-packages/lidar-cluster.egg-link (link to .)
+Installing lidar_clustering_node script to /home/park/clu_ws/install/lidar_cluster/lib/lidar_cluster
+
+Installed /home/park/clu_ws/build/lidar_cluster
+running symlink_data
+creating /home/park/clu_ws/install/lidar_cluster/share/ament_index/resource_index/packages
+symbolically linking /home/park/clu_ws/build/lidar_cluster/resource/lidar_cluster -> /home/park/clu_ws/install/lidar_cluster/share/ament_index/resource_index/packages
+symbolically linking /home/park/clu_ws/build/lidar_cluster/package.xml -> /home/park/clu_ws/install/lidar_cluster/share/lidar_cluster
